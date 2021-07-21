@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../LibFoo/include/foo.h
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/main.cxx
+fstream
+-
+iostream
+-
+foo.h
+-
+

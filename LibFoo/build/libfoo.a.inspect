@@ -1,0 +1,88 @@
+
+foo.cpp.o:
+                 U __cxa_atexit
+                 U __dso_handle
+                 U _GLOBAL_OFFSET_TABLE_
+0000000000000080 t _GLOBAL__sub_I__Z11print_hellov
+0000000000000000 T print_hello()
+0000000000000033 t __static_initialization_and_destruction_0(int, int)
+                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+                 U std::ios_base::Init::Init()
+                 U std::ios_base::Init::~Init()
+                 U std::cout
+                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+0000000000000000 r std::piecewise_construct
+0000000000000000 b std::__ioinit
+                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+libfoo.a:foo.cpp.o:                 U __cxa_atexit
+libfoo.a:foo.cpp.o:                 U __dso_handle
+libfoo.a:foo.cpp.o:                 U _GLOBAL_OFFSET_TABLE_
+libfoo.a:foo.cpp.o:0000000000000080 t _GLOBAL__sub_I__Z11print_hellov
+libfoo.a:foo.cpp.o:0000000000000000 T print_hello()
+libfoo.a:foo.cpp.o:0000000000000033 t __static_initialization_and_destruction_0(int, int)
+libfoo.a:foo.cpp.o:                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::Init()
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::~Init()
+libfoo.a:foo.cpp.o:                 U std::cout
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+libfoo.a:foo.cpp.o:0000000000000000 r std::piecewise_construct
+libfoo.a:foo.cpp.o:0000000000000000 b std::__ioinit
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+libfoo.a:foo.cpp.o:                 U __cxa_atexit	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U __dso_handle	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U _GLOBAL_OFFSET_TABLE_
+libfoo.a:foo.cpp.o:0000000000000080 t _GLOBAL__sub_I__Z11print_hellov
+libfoo.a:foo.cpp.o:0000000000000000 T print_hello()
+libfoo.a:foo.cpp.o:0000000000000033 t __static_initialization_and_destruction_0(int, int)
+libfoo.a:foo.cpp.o:                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::~Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::cout	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)	foo.cpp:0
+libfoo.a:foo.cpp.o:0000000000000000 r std::piecewise_construct
+libfoo.a:foo.cpp.o:0000000000000000 b std::__ioinit
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U __cxa_atexit	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U __dso_handle	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U _GLOBAL_OFFSET_TABLE_
+libfoo.a:foo.cpp.o:0000000000000000 t _GLOBAL__sub_I__Z11print_hellov
+libfoo.a:foo.cpp.o:0000000000000000 r .LC0
+libfoo.a:foo.cpp.o:0000000000000000 T print_hello()
+libfoo.a:foo.cpp.o:                 U std::ctype<char>::_M_widen_init() const	foo.cpp:0
+libfoo.a:foo.cpp.o:0000000000000000 W std::ctype<char>::do_widen(char) const
+libfoo.a:foo.cpp.o:                 U std::ostream::put(char)	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ostream::flush()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::~Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::__throw_bad_cast()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::cout	foo.cpp:0
+libfoo.a:foo.cpp.o:0000000000000000 b std::__ioinit
+libfoo.a:foo.cpp.o:                 U __cxa_atexit	/usr/include/c++/9/iostream:74
+libfoo.a:foo.cpp.o:                 U __dso_handle	/usr/include/c++/9/iostream:74
+libfoo.a:foo.cpp.o:                 U _GLOBAL_OFFSET_TABLE_
+libfoo.a:foo.cpp.o:0000000000000080 t _GLOBAL__sub_I__Z11print_hellov
+libfoo.a:foo.cpp.o:0000000000000000 T print_hello()	/home/madhav/ws/CMake/Help/guide/importing-exporting/LibFoo/src/foo.cpp:3
+libfoo.a:foo.cpp.o:0000000000000033 t __static_initialization_and_destruction_0(int, int)
+libfoo.a:foo.cpp.o:                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))	/home/madhav/ws/CMake/Help/guide/importing-exporting/LibFoo/src/foo.cpp:4
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::Init()	/usr/include/c++/9/iostream:74
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::~Init()	/usr/include/c++/9/iostream:74
+libfoo.a:foo.cpp.o:                 U std::cout	/home/madhav/ws/CMake/Help/guide/importing-exporting/LibFoo/src/foo.cpp:4
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)	/home/madhav/ws/CMake/Help/guide/importing-exporting/LibFoo/src/foo.cpp:4
+libfoo.a:foo.cpp.o:0000000000000000 r std::piecewise_construct
+libfoo.a:foo.cpp.o:0000000000000000 b std::__ioinit
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)	/home/madhav/ws/CMake/Help/guide/importing-exporting/LibFoo/src/foo.cpp:4
+libfoo.a:foo.cpp.o:                 U __cxa_atexit	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U __dso_handle	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U _GLOBAL_OFFSET_TABLE_
+libfoo.a:foo.cpp.o:00000000000000a8 t _GLOBAL__sub_I__Z11print_hellov
+libfoo.a:foo.cpp.o:0000000000000000 T print_hello()
+libfoo.a:foo.cpp.o:000000000000005b t __static_initialization_and_destruction_0(int, int)
+libfoo.a:foo.cpp.o:                 U std::ostream::operator<<(std::ostream& (*)(std::ostream&))	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::ios_base::Init::~Init()	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::cout	foo.cpp:0
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)	foo.cpp:0
+libfoo.a:foo.cpp.o:0000000000000000 r std::piecewise_construct
+libfoo.a:foo.cpp.o:0000000000000000 b std::__ioinit
+libfoo.a:foo.cpp.o:                 U std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)	foo.cpp:0
