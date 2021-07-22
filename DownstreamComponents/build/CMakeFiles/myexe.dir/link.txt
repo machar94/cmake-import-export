@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/myexe.dir/main.cc.o  -o myexe  /home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsComponents/install/lib/libAddition.a /home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsComponents/install/lib/libSquareRoot.a 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsComponents/SquareRoot/SquareRoot.cxx
+SquareRoot.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsComponents/SquareRoot/SquareRoot.h
+cmath
+-
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsComponents/SquareRoot/SquareRoot.h
+
