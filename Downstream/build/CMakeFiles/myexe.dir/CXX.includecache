@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/Downstream/main.cc
+iostream
+-
+string
+-
+MathFunctions.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/Downstream/MathFunctions.h
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/include/MathFunctions.h
+

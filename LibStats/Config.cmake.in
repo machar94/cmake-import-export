@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+# Brings in the information that allows use to use
+# package::target
+include("${CMAKE_CURRENT_LIST_DIR}/StatsTargets.cmake")
+
+# Allows components (like for boost) to be checked whether
+# they exist in cmake and if not the <PACKAGE>_FOUND variable is
+# set to false
+check_required_components(Stats)

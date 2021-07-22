@@ -169,6 +169,19 @@ myexe/fast:
 	$(MAKE) -f CMakeFiles/myexe.dir/build.make CMakeFiles/myexe.dir/build
 .PHONY : myexe/fast
 
+#=============================================================================
+# Target rules for targets named bar
+
+# Build rule for target.
+bar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bar
+.PHONY : bar
+
+# fast build rule for target.
+bar/fast:
+	$(MAKE) -f src/CMakeFiles/bar.dir/build.make src/CMakeFiles/bar.dir/build
+.PHONY : bar/fast
+
 main.o: main.cxx.o
 
 .PHONY : main.o
@@ -209,6 +222,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... myexe"
+	@echo "... bar"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

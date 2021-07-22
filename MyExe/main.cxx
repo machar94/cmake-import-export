@@ -1,7 +1,10 @@
 // A simple program that outputs a file with the given name
 #include <fstream>
 #include <iostream>
+
 #include <foo.h>
+#include <bar.h>
+#include <zap.h>
 
 int main(int argc, char* argv[])
 {
@@ -15,6 +18,10 @@ int main(int argc, char* argv[])
   outfile.close();
 
   print_hello();
+
+  print_bar();
+
+  print_zap();
 
   return 0;
 }

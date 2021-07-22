@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/LibStats/install/include/stats.h
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/include/MathFunctions.h
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsExe/main.cpp
+iostream
+-
+MathFunctions.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsExe/MathFunctions.h
+stats.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctionsExe/stats.h
+

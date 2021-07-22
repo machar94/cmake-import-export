@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/src/bar.cpp
+iostream
+-
+bar.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/src/bar.h
+
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/src/bar.h
+

@@ -3,4 +3,5 @@
 
 CMakeFiles/myexe.dir/main.cxx.o
  ../../LibFoo/include/foo.h
+ ../src/bar.h
  /home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/main.cxx

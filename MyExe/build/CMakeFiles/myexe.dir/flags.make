@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/../LibFoo/include 
+CXX_INCLUDES = -I/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/../LibFoo/include -I/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/../LibZap/include -I/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/src 
 

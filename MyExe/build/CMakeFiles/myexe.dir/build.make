@@ -80,6 +80,8 @@ myexe_EXTERNAL_OBJECTS =
 myexe: CMakeFiles/myexe.dir/main.cxx.o
 myexe: CMakeFiles/myexe.dir/build.make
 myexe: ../../LibFoo/build/libfoo.a
+myexe: src/libbar.a
+myexe: ../../LibZap/build/libzap.so.1.0
 myexe: CMakeFiles/myexe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable myexe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myexe.dir/link.txt --verbose=$(VERBOSE)

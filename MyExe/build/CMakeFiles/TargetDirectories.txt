@@ -5,3 +5,10 @@
 /home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/CMakeFiles/rebuild_cache.dir
 /home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/CMakeFiles/edit_cache.dir
 /home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/CMakeFiles/myexe.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/install/strip.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/install/local.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/edit_cache.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/install.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/list_install_components.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/rebuild_cache.dir
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MyExe/build/src/CMakeFiles/bar.dir

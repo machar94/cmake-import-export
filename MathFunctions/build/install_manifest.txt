@@ -1,0 +1,6 @@
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/lib/libMathFunctions.a
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/include/MathFunctions.h
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/lib/cmake/MathFunctions/MathFunctionsTargets.cmake
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/lib/cmake/MathFunctions/MathFunctionsTargets-noconfig.cmake
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/lib/cmake/MathFunctions/MathFunctionsConfig.cmake
+/home/madhav/ws/CMake/Help/guide/importing-exporting/MathFunctions/install/lib/cmake/MathFunctions/MathFunctionsConfigVersion.cmake
